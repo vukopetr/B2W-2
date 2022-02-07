@@ -50,6 +50,7 @@ function bootstrap2worpress_setup() {
 	register_nav_menus(
 		array(
 			'primary' => esc_html__( 'Primary', 'bootstrap2worpress' ),
+			'footer' => esc_html__( 'Footer Menu', 'bootstrap2worpress' ),
 		)
 	);
 
